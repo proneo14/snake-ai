@@ -14,16 +14,6 @@ Tech Stack
 - NumPy, Matplotlib
 - Pygame (for visualization)
 
-Project Structure
-snake-ai/
-│
-├── snake_game.py         # Core Snake game logic and environment
-├── agent.py              # Reinforcement learning agent implementation
-├── train.py              # Training loop for the agent
-├── test.py               # Evaluate or replay trained model
-├── utils.py              # Helper functions
-└── README.md
-
 How It Works
 - Environment Setup: The Snake game provides a state space (snake position, direction, and food location) and possible actions (turn left, right, or go straight).
 - Agent Training: The agent receives rewards for eating food (+10), penalties for collisions (-10), and small negative rewards to encourage efficient movement.
